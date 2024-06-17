@@ -23,6 +23,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        CtrlAltDel {
+            bindings = <&kp LC(LA(DEL))>;
+            key-positions = <12 0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
